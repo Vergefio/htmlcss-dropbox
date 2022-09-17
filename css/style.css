@@ -310,3 +310,48 @@ main .container-due .cards-strette .interno-card .punti-salienti ul li i {
   color: blue;
   text-decoration: underline;
 }
+
+.layout {
+  background-color: aquamarine;
+  padding-top: 80px;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.layout .quadrato-verde img {
+  width: 200px;
+  height: 200px;
+  background-color: lightgreen;
+}
+
+.layout .quadrato-brown img {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+}
+
+.layout .quadrato-celeste img {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+}
+
+.layout .quadrato-arancione img {
+  width: 200px;
+  height: 200px;
+  background-color: orangered;
+}
+
+.layout-centrale .quadrato-bisque img {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+}
+
+
+
+
+
