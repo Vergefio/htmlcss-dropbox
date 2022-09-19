@@ -228,8 +228,7 @@ main .container-due .cards-strette .interno-card .punti-salienti ul li i {
   padding-right: 10px;
 }
 
-.container-due .team span h5 {
-  justify-content: center;
+.container-due .team h5 {
   text-align: center;
   margin-top: 50px;
   padding: 10px;
@@ -252,37 +251,42 @@ main .container-due .cards-strette .interno-card .punti-salienti ul li i {
   padding-bottom: 40px;
 }
 
+.container-due .enterprise p {
+  width: 600px;
+}
+
 .enterprise .bottone-enterprise {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 30px;
+  right: 30px;
   padding: 10px 30px 10px 30px;
 }
 
-.partner {
+.box-partner {
   display: flex;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-.partner .partner-text {
+.box-partner .partner-text {
   width: 65%;
   padding-top: 40px;
   padding-left: 40px;
 }
 
-.partner .partner-text p {
+.box-partner .partner-text p {
   line-height: 22px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.partner .bottone-partner {
+.partner-text .bottone-partner {
   background-color: white;
   border: 2px solid black;
   color: black;
 }
 
+/*  alternativa
 .tanti-quadratini h2 {
   font-size: 35px;
 }
@@ -299,10 +303,44 @@ main .container-due .cards-strette .interno-card .punti-salienti ul li i {
   line-height: 30px;
   font-size: 20px;
   padding-bottom: 20px;
+} */
+
+main .container-due .business h2 {
+  font-size: 2.5rem;
+  padding-bottom: 50px;
+}
+
+main .container-due .business
+.business-insertion {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .container-due .business .business-insertion .img-business {
+  text-align: center;
+}
+
+main .container-due .business
+.business-insertion img {
+  width: 300px;
+  align-items: center;
+}
+
+main .container-due .business
+.business-insertion .box-business {
+  width: calc(100% / 3);
+  padding-right: 50px;
+}
+
+main .container-due .business
+.business-insertion .box-business h3 {
+  line-height: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .scopri-di-più h2 {
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 40px;
 }
 
@@ -312,46 +350,59 @@ main .container-due .cards-strette .interno-card .punti-salienti ul li i {
 }
 
 .layout {
-  background-color: aquamarine;
   padding-top: 80px;
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  display: flex;
+}
+
+.layout img {
+  width: 300px;
+  height: 300px;
+  justify-content: space-between;
+}
+
+.layout .layout-sinistra {
+  width: 33.33%;
   display: flex;
   flex-wrap: wrap;
 }
 
-.layout .quadrato-verde img {
-  width: 200px;
-  height: 200px;
-  background-color: lightgreen;
-}
-
-.layout .quadrato-brown img {
-  width: 200px;
-  height: 200px;
-  background-color: brown;
-}
-
-.layout .quadrato-celeste img {
-  width: 200px;
-  height: 200px;
-  background-color: lightblue;
-}
-
-.layout .quadrato-arancione img {
-  width: 200px;
-  height: 200px;
-  background-color: orangered;
-}
-
-.layout-centrale .quadrato-bisque img {
+.layout .layout-centrale {
+  width: 33.33%;
   display: flex;
-  width: 200px;
-  height: 200px;
-  background-color: bisque;
 }
 
+.layout .layout-destra {
+  width: 33.33%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
 
+.layout-sinistra .quadrato-verde img {
+  align-content: center;
+  justify-content: center;
+  background-color: #a2d39b;
+  border: 20px solid black;
+  padding: 30px;
+}
 
+.prova-gratuita {
+  display: flex;
+  padding-top: 100px;
+  line-height: 40px;
+  color: #5f062b;
+  width: 100%;
+  height: 300px;
+  background-color: #B4D0E7;
+}
 
+.prova-gratuita h3 {
+  display: inline-block;
+}
 
+.bottone-prova-gratuita {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
