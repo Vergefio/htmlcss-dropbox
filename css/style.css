@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* outline: 2px solid red; */
+  /* outline: 2px solid red;  */
 }
 
 body {
@@ -307,7 +307,6 @@ main .container-due .cards-strette .interno-card .punti-salienti ul li i {
 
 main .container-due .business h2 {
   font-size: 2.5rem;
-  padding-bottom: 50px;
 }
 
 main .container-due .business
@@ -318,6 +317,7 @@ main .container-due .business
 
 main .container-due .business .business-insertion .img-business {
   text-align: center;
+  padding-top: 50px;
 }
 
 main .container-due .business
@@ -340,8 +340,10 @@ main .container-due .business
 }
 
 .scopri-di-più h2 {
+  font-size: 2.5rem;
   padding-top: 150px;
   padding-bottom: 40px;
+  width: 580px;
 }
 
 .link-scopri-di-più a {
@@ -349,60 +351,108 @@ main .container-due .business
   text-decoration: underline;
 }
 
-.layout {
-  padding-top: 80px;
-  width: 100%;
+main .layout {
+  margin-top: 120px;
   display: flex;
 }
 
-.layout img {
-  width: 300px;
-  height: 300px;
-  justify-content: space-between;
+main .layout img {
+  width: 200px;
 }
 
-.layout .layout-sinistra {
-  width: 33.33%;
+main .layout .layout-sinistra {
+  width: calc(100% / 3);
   display: flex;
   flex-wrap: wrap;
+  height: 30vw;
 }
 
 .layout .layout-centrale {
-  width: 33.33%;
+  width: calc(100% / 3);
   display: flex;
+  background-color: #f5f5f5;
 }
 
-.layout .layout-destra {
-  width: 33.33%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: right;
+main .layout-centrale .centro-logo img{
+  width: 300px;
 }
 
-.layout-sinistra .quadrato-verde img {
-  align-content: center;
-  justify-content: center;
-  background-color: #a2d39b;
-  border: 20px solid black;
+main .layout-centrale .centro-logo {
   padding: 30px;
 }
 
-.prova-gratuita {
+.layout .layout-destra {
+  width: calc(100% / 3);
   display: flex;
-  padding-top: 100px;
-  line-height: 40px;
-  color: #5f062b;
-  width: 100%;
-  height: 300px;
-  background-color: #B4D0E7;
+  flex-wrap: wrap;
+  height: 30vw;
 }
 
-.prova-gratuita h3 {
-  display: inline-block;
+main .layout .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
 }
 
+.active:active {
+  border: 20px solid rgba(0, 0, 0, 0.5);
+}
+
+main .layout .quadrato-1 {
+  background-color: #a2d39b;
+}
+
+main .layout .quadrato-2 {
+  background-color: #61082b;
+}
+
+main .layout .quadrato-3 {
+  background-color: #0093ce;
+}
+
+main .layout .quadrato-4 {
+  background-color: #ff1c1c;
+}
+
+main .layout .quadrato-5 {
+  background-color: #d5001f;
+}
+
+main .layout .quadrato-6 {
+  background-color: #b4d0e7;
+}
+
+main .layout .quadrato-7 {
+  background-color: #0d2481;
+}
+
+main .layout .quadrato-8 {
+  background-color: #ffd830;
+}
+
+.prova-gratuita {
+  background-color: #b4d0e7;
+  padding: 100px 0;
+}
+
+.prova-gratuita-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.prova-gratuita-container h3 {
+  color: #61082b;
+  font-size: 2.8rem;
+  flex-basis: 60%;
+}
+
+.prova-gratuita-container
 .bottone-prova-gratuita {
+  padding: 10px 30px;
   background-color: white;
-  border: 1px solid black;
   color: black;
+  border: none;
 }
